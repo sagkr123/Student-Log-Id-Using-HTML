@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <h1>Registration</h1>
+    <form id="registerForm" autocomplete="off" onsubmit="registerUser(event)">
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender" required>
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form_action--button">
+            <input type="submit" value="Register" />
+        </div>
+    </form>
+    <p>Already registered? <a href="login.html">Login here</a></p>
+    <script src="auth.js"></script>
+</body>
+
+</html>

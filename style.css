@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: chartreuse;
+}
+
+form {
+    background: black;
+    color: aqua;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 300px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: aqua;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: chartreuse;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+table {
+    width: 90%;
+    margin: 40px auto;
+    background: black;
+    color: aqua;
+    border-collapse: collapse;
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid red;
+    text-align: left;
+    padding: 12px 20px;
+}
+
+table.list thead > tr {
+    background-color: red;
+}
+
+button {
+    background: black;
+    color: aqua;
+    padding: 10px 20px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid blueviolet;
+}
+
+button:hover {
+    background: red;
+}
