@@ -1,3 +1,4 @@
+//Which can be used for registration.
 function registerUser(event) {
     event.preventDefault();
     var email = document.getElementById("email").value;
